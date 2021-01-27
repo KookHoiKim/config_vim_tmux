@@ -12,7 +12,7 @@ git clone https://github.com/airblade/vim-gitgutter.git ~/.vim/bundle/vim-gitgut
 git clone https://github.com/nvie/vim-flake8.git ~/.vim/bundle/vim-flake8
 
 
-cd ~
-wget https://raw.githubusercontent.com/thangvubk/config/master/.vimrc
-wget https://raw.githubusercontent.com/thangvubk/config/master/.tmux.conf
+#cd ~
+#wget https://raw.githubusercontent.com/thangvubk/config/master/.vimrc
+#wget https://raw.githubusercontent.com/thangvubk/config/master/.tmux.conf
 #wget https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
