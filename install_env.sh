@@ -3,7 +3,7 @@
 ############################################ common packages #################################################
 apt install -y sudo
 sudo apt update
-sudo apt install -y vim htop git tmux cmake build-essential wget curl
+sudo apt install -y vim htop git tmux cmake build-essential wget curl ssh
 # sudo apt install -y vim htop git tmux cmake build-essential wget libgl1-mesa-glx libglib2.0-0 curl
 
 # install anaconda
@@ -53,7 +53,7 @@ cd ~/.vim/bundle/vim-monokai && git checkout dfd773b5d2aa7d02bf78d833c366d654651
 # auto code completion
 git clone https://github.com/ycm-core/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe
 cd ~/.vim/bundle/YouCompleteMe && git checkout 85c11d3a875b02a7ac28fb96d0c7a02782f60410
-git submodule update --init --recursive && python install.py
+git submodule update --init --recursive && python3 install.py
 
 # track git modification
 git clone https://github.com/airblade/vim-gitgutter.git ~/.vim/bundle/vim-gitgutter
